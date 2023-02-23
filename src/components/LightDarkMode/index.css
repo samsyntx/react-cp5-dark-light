@@ -1,0 +1,39 @@
+.main-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.common-background-theme {
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px;
+}
+.common-theme-heading {
+  font-size: 20px;
+}
+.common-button-style {
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Light THEME  */
+.light-bg-theme {
+  border: 1px solid black;
+  background-color: white;
+}
+.light-button-style {
+  background-color: white;
+}
+/* Dark Theme Apply */
+
+.dark-bg-theme {
+  background-color: black;
+  color: white;
+}
+.dark-button-style {
+  background-color: white;
+}
