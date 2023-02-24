@@ -20,7 +20,7 @@ class LightDarkMode extends Component {
     let buttonStyle = ''
     let buttonContent = ''
 
-    if (isDark === true) {
+    if (isDark === false) {
       bgTheme = `common-background-theme dark-bg-theme`
       headingTheme = `common-theme-heading`
       buttonStyle = `common-button-style dark-button-style`
