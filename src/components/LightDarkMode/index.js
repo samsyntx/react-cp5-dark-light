@@ -3,7 +3,7 @@ import './index.css'
 
 class LightDarkMode extends Component {
   state = {
-    isDark: true,
+    isDark: false,
   }
 
   changeThemeButton = () => {
@@ -24,12 +24,12 @@ class LightDarkMode extends Component {
       bgTheme = `common-background-theme dark-bg-theme`
       headingTheme = `common-theme-heading`
       buttonStyle = `common-button-style dark-button-style`
-      buttonContent = `Dark Mode`
+      buttonContent = `Light Mode`
     } else {
       bgTheme = `common-background-theme light-bg-theme`
       headingTheme = `common-theme-heading light-heading-theme`
       buttonStyle = `common-button-style light-button-style`
-      buttonContent = `Light Mode`
+      buttonContent = `Dark Mode`
     }
 
     return (
